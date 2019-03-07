@@ -1,7 +1,6 @@
 package gradeshistogram;
 
 import java.io.File;
-
 import java.util.Scanner;
 import org.jfree.chart.ChartFactory;
 import org.jfree.chart.ChartFrame;
@@ -12,6 +11,12 @@ import org.jfree.data.xy.XYSeriesCollection;
 
 public class HistogramGenerator {
 
+	/***
+	 * Reads a file with grades from command line and storage it to an array
+	 * according to their frequency. Finally, it calls a method to present the
+	 * results.
+	 * 
+	 */
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(new File(args[0]));
 		int[] grades = new int[11];
