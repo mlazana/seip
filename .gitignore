@@ -1,0 +1,10 @@
+#.gitignore for Java projects (using eclipse)
+
+# Java
+*.class
+
+# Eclipse
+.settings/
+.buildpath
+.classpath
+.project
