@@ -16,11 +16,16 @@ public class HistogramGenerator {
 	 * according to their frequency. Finally, it calls a method to present the
 	 * results.
 	 * 
+	 * @param File with grades
 	 */
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(new File(args[0]));
+		
 		int[] grades = new int[11];
-		int i = 0;
+		/*
+		 * For each grade it counts frequency. In terms of the assignment 
+		 * grades would surely be [0,10]. 
+		 */
 		while (sc.hasNextInt()) {
 			grades[sc.nextInt()] += 1;
 		}
