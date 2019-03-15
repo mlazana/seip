@@ -9,6 +9,12 @@ import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
 
+/**
+ * @purpose This class represents a histogram generator for grades using 
+ * JFreeChart Library. 
+ * @author Marietta Lazana
+ * @version 1.0
+ */
 public class HistogramGenerator {
 
 	/***
@@ -39,6 +45,7 @@ public class HistogramGenerator {
 	 * the screen.
 	 * 
 	 * @param dataValues Single dimension integer array
+	 * @author Gkortzis Antonis
 	 */
 	public static void generateChart(int[] dataValues) {
 		/*
