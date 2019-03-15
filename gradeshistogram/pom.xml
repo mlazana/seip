@@ -10,7 +10,7 @@
 	</parent>
 	<!-- Module's POM information -->
 	<artifactId>gradeshistogram</artifactId>
-	<name>Parent - GradesProject </name>
+	<name>GradesProject</name>
 	<description>This is a project that generates and presents a histogram
 		based on an array of integers.
 	</description>

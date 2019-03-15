@@ -8,7 +8,7 @@
 	<artifactId>seip2019</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Parent - GradesProject</name>
+	<name>Software Engeneering in Practise</name>
 	<description>This is a project that generates and presents a histogram based on an array of integers.</description>
 	<!-- Refers to the modules/children Maven projects -->
 	<modules>
