@@ -1,15 +1,15 @@
 <div align="center">
 <img src="../media/aueb.jpg" height="80px">
 <h1> 1st Assignment<br/><sub>Java lab assignments 2019</sub></h1>
-</div>
 <img src="../media/maven.png" width="300" height="100"/>
+</div>
+
 
 The purpose of this assignment is to get familiar with built automation tools and some Java libraries. More precisely, I created a Java-based project with Maven. This progamme reads grades from a given file and presents a histogram with the frequencies.
 
 ## Requirements
 
-``` Java 1.8.120 ``` ,
-``` Apache.maven-3.6.0 ``` 
+``` Java 1.8.120 ``` , ``` Apache.maven-3.6.0 ``` 
 
 ## Getting started
 
