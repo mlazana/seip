@@ -1,4 +1,8 @@
-package javaCodeAnalyzer;
+package mainOperations;
+
+import javaCodeAnalyzer.CodeAnalyzer;
+import javaCodeAnalyzer.RegexAnalyzer;
+import javaCodeAnalyzer.StringAnalyzer;
 
 /**
  * @purpose This class is implemented using Factory design pattern in order 

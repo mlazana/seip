@@ -1,6 +1,6 @@
 package toolDemonstration;
 
-import javaCodeAnalyzer.JavaCodeAnalyzer;
+import mainOperations.JavaCodeAnalyzer;
 
 public class Client {
 

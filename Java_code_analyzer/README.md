@@ -25,3 +25,22 @@ Go to target directory and run:
 
 ``` java -jar Java_code_analyzer-0.0.1-SNAPSHOT-jar-with-dependencies [sourceFile] [string or regex] ```
 
+## UML
+
+<img src="../media/java-design-patterns.png" width="700" height="300"/>
+
+## Built
+
+* **Maven** - Dependency Management
+
+## Authors
+
+* Marietta Lazana
+
+## Mentor
+
+* Antonis Gkortzis
+
+## License
+
+MIT license
