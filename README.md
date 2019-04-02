@@ -3,10 +3,11 @@
 <h1> Software Engineering in practise<br/><sub>Java lab assignments 2019</sub></h1>
 ▶️ <a href="https://github.com/mlazana/dmst-Java-course-assignments/blob/master/LICENSE.md">License</a> | 
 <a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/gradeshistogram">1st assignment</a> | 
-<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/Java-code-analyzer">2nd assignment</a>  
+<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/Java_code_analyzer">2nd assignment</a>  
 </div>
+
 <pre>
-This repository is created to contain lesson exercises for the course "Software Engineering in practise".
+This repository is created to contain lab exercises for the course "Software Engineering in practise".
 </pre>
 <hr/>
 
@@ -23,7 +24,7 @@ For furthure informations click [here](https://github.com/mlazana/dmst-Java-cour
 
 The purpose of this assignment is to get familiar with <b> Java design patterns</b>. More precisely, I created Java source code analyzer.
 
-For furthure informations click [here](https://pip.pypa.io/en/stable/)
+For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/blob/development/Java_code_analyzer/README.md)
 
 ## Authors
 
