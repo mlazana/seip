@@ -27,7 +27,7 @@ Go to target directory and run:
 
 ## UML
 
-<img src="../media/java-design-patterns.png" width="700" height="300"/>
+<img src="../media/uml.jpg" width="700" height="300"/>
 
 ## Built
 
