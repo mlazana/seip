@@ -20,7 +20,7 @@ public final class Utilities {
 
 	}
 
-	/*
+	/**
 	 * This method reads its line and puts it into the ArrayList
 	 * @param path
 	 */
@@ -50,7 +50,7 @@ public final class Utilities {
 		}
 	}
 
-	/*
+	/**
 	 * This method takes a content and generates a text file in the output given path 
 	 * @param path,content
 	 */
@@ -69,7 +69,6 @@ public final class Utilities {
 			bw = new BufferedWriter(fw);
 
 			for (int i = 0; i < content.size(); i++) {
-				System.out.print("mpenei" + content.get(i));
 				bw.write(content.get(i));
 				bw.write("\n");
 			}

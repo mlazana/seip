@@ -26,7 +26,6 @@ public class RegexAnalyzer implements CodeAnalyzer {
 			// Calculates the number of lines in given source code
 			if (!object.equals("")
 					&& Pattern.matches("^(?![ \\s][ \\s]*}|[ \\s]*//|[ \\s]*/\\*|[ \\s]*\\*).*", object)) {
-				System.out.println(object);
 
 				nol += 1;
 			}
@@ -51,7 +50,7 @@ public class RegexAnalyzer implements CodeAnalyzer {
 		temporary_list.add(Integer.toString(nom));
 
 		String separate = String.join(",", temporary_list);
-		output_list.add(0, "noc,nom,loc");
+		output_list.add(0, "nol,noc,lom");
 		output_list.add(1, separate);
 
 		return output_list;
