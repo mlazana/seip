@@ -1,4 +1,4 @@
-package javaCodeAnalyzer;
+package mainOperations;
 
 import java.util.List;
 
