@@ -1,7 +1,11 @@
 package toolDemonstration;
 
 import mainOperations.JavaCodeAnalyzer;
-
+/**
+ * @purpose This class implements javaCodeAnalyzer
+ * @author Marietta Lazana
+ *
+ */
 public class Client {
 
 	public static void main(String[] args) {
