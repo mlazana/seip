@@ -10,7 +10,7 @@ import javaCodeAnalyzer.StringAnalyzer;
  * @author Marietta Lazana
  *
  */
-public class Factory_analyzer {
+public class AnalyzerFactory {
 	
    public CodeAnalyzer choose_analyzer(String type){
 	   

@@ -17,7 +17,7 @@ public class JavaCodeAnalyzer {
 	public void code_analyzer(String path, String type) {
 		
 		List<String> read_list = new ArrayList<String>();
-		Factory_analyzer factory_analyzer = new Factory_analyzer();
+		AnalyzerFactory factory_analyzer = new AnalyzerFactory();
 		
 		read_list = Utilities.readFile(path);
 		String output_path = "output.csv" ;
