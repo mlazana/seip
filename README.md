@@ -1,52 +1,36 @@
-# dmst-Java-courses-assignments
+<div align="center">
+<img src="media/aueb.jpg" height="80px">
+<h1> Software Engineering in practise<br/><sub>Java lab assignments 2019</sub></h1>
+▶️ <a href="https://github.com/mlazana/dmst-Java-course-assignments/blob/master/LICENSE.md">License</a> | 
+<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/gradeshistogram">1st assignment</a> | 
+<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/Java_code_analyzer">2nd assignment</a>  
+</div>
 
-__First assigment__
-
-<img src="media/maven.png" width="300" height="100"/>
-
-The purpose of this assignment is to get familiar with built automation tools and some Java libraries. More precisely, I created a Java-based project with Maven. This progamme reads grades from a given file and presents a histogram with the frequencies.
-
-## Requirements
-
-``` Java 1.8.120 ``` ,
-``` Apache.maven-3.6.0 ``` 
-
-## Getting started
-
-In order to build the project run: 
-
-``` mvn compile package ```
-
-Go to target directory and run:
-
-``` java -jar gradeshistogram-0.0.1-SNAPSHOT-jar-with-dependencies <path/grades.txt> ```
-
-## Example
+<pre>
+This repository is created to contain lab exercises for the course "Software Engineering in practise".
+</pre>
+<hr/>
 
 
-Let's say that I give the following grades.txt : 
 
-<img src="media/grades.png" width="200" height="400"/>
+## First assigment
 
 
-Then the output would be like this:
+The purpose of this assignment is to get familiar with <b>built automation tool Maven and some Java libraries</b>. This progamme reads grades from a given file and presents a histogram with the frequencies.
 
-<img src="media/output.png" width="400" height="400"/>
+For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/blob/development/gradeshistogram/README.md)
 
-## Built
+## Second assignment
 
-* **Maven** - Dependency Management
+The purpose of this assignment is to get familiar with <b> Java design patterns</b>. More precisely, I created Java source code analyzer.
+
+For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/blob/development/Java_code_analyzer/README.md)
 
 ## Authors
 
 * Marietta Lazana
-
-## Mentor
-
 * Antonis Gkortzis
 
 ## License
 
-MIT license
-
-
+This project is licensed under the terms of the MIT license.
