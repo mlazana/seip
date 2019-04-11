@@ -1,7 +1,9 @@
 package operations;
 
 import org.junit.Assert;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.ExpectedException;
 
 
 public class IntegerOperationsTest {
@@ -47,5 +49,19 @@ public class IntegerOperationsTest {
 		io.add(100,2147483647);
 	}
 	
+	@Rule
+	public ExpectedException thrown = ExpectedException.none();
+	
+	@Test
+	public void test_powerOfTwo_negative() {
+		thrown.expect(IllegalArgumentException.class);
+		io.powerOfTwo(-1);
+	}
+	
+	@Test
+	public void test_powerOfTwo_overflow() {
+		thrown.expect(IllegalArgumentException.class);
+		io.powerOfTwo(50);
+	}
 	
 }
