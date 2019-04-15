@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fileUtilities.Utilities;
-import javaCodeAnalyzer.CodeAnalyzer;
+
 /**
  * @purpose This class is implemented using Facade design pattern in order to 
  * analyze Java source code
