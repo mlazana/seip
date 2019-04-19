@@ -1,18 +1,21 @@
 package operations;
 
-import org.junit.Test;
-import org.junit.rules.ExpectedException;
-
 import java.util.Arrays;
 import java.util.Collection;
 
+import org.junit.Test;
 import org.junit.Assert;
-import org.junit.Rule;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
+/**
+ * Test class for IntegerOpertions class tha runs for 
+ * multiple input values
+ * @author Marietta Lazana
+ *
+ */
 @RunWith(Parameterized.class)
 public class IntegerOperationsTest_PowerOfTwo_Parameterized {
 	
@@ -30,7 +33,9 @@ public class IntegerOperationsTest_PowerOfTwo_Parameterized {
 		
 		return Arrays.asList(data);
 	}
-	
+	/**
+	 * @return the power of two of a number
+	 */
 	@Test
 	public void test_powerOfTwo() {
 		Assert.assertEquals(result, inop.powerOfTwo(power));
