@@ -1,9 +1,11 @@
 <div align="center">
 <img src="media/aueb.jpg" height="80px">
 <h1> Software Engineering in practise<br/><sub>Java lab assignments 2019</sub></h1>
+<img scr="http://wiki.stat.ucla.edu/distributome/uploads/a/a2/JAVA_animated.gif"  height="100px">
 ▶️ <a href="https://github.com/mlazana/dmst-Java-course-assignments/blob/master/LICENSE.md">License</a> | 
 <a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/gradeshistogram">1st assignment</a> | 
-<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/Java_code_analyzer">2nd assignment</a>  
+<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/javaCodeAnalyzer">2nd assignment</a> |
+<a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/unitTesting">3nd assignment</a> 
 </div>
 
 <pre>
@@ -25,6 +27,10 @@ For furthure informations click [here](https://github.com/mlazana/dmst-Java-cour
 The purpose of this assignment is to get familiar with <b> Java design patterns</b>. More precisely, I created Java source code analyzer.
 
 For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/blob/development/Java_code_analyzer/README.md)
+
+## Third assignment
+
+The purpose of this assignment is to get familiar with <b> Java unit testing </b>. So, I wrote tests for the methods of several classes.
 
 ## Authors
 
