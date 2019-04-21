@@ -24,7 +24,7 @@ public class IntegerOperationsTest {
 	}
 	
 	/**
-	 * Reverse sign for a negaive number
+	 * Reverse sign for a negative number
 	 */
 	@Test
 	public void test_reverseSign_negative() {
@@ -49,7 +49,7 @@ public class IntegerOperationsTest {
 	
 	/**
 	 * Give two negative numbers
-	 * @xception IllegalArgumentException when given input is negative
+	 * @exception IllegalArgumentException when given input is negative
 	 */
 	@Test(expected = IllegalArgumentException.class)
 	public void test_add_negatives() {
@@ -87,14 +87,18 @@ public class IntegerOperationsTest {
 	public ExpectedException thrown = ExpectedException.none();
 	
 	/**
-	 * 
+	 * Give a negative number
+	 * @exception IllegalArgumentException when input is invalid
 	 */
 	@Test
 	public void test_powerOfTwo_negative() {
 		thrown.expect(IllegalArgumentException.class);
 		io.powerOfTwo(-1);
 	}
-	
+	/**
+	 * Give a number that causes overflow
+	 * @exception IllegalArgumentException when input is invalid
+	 */
 	@Test
 	public void test_powerOfTwo_overflow() {
 		thrown.expect(IllegalArgumentException.class);
