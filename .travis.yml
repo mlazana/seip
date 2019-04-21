@@ -14,7 +14,7 @@ before_install:
   - sudo apt update
 
 script: 
-  - mvn clean package jacoco:report coveralls:report # the coveralls:report is required only for the coveralls coverage service 
+  - mvn clean package jacoco:report cobertura:cobertura 
 
 after_success:
 - bash <(curl -s https://codecov.io/bash) -t ed300c9d-44db-454c-ba71-706a789a34eb
