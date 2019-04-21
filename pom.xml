@@ -13,7 +13,6 @@
 	<modules>
 		<module>gradeshistogram</module>
 		<module>javaCodeAnalyzer</module>
-    <module>unitTesting</module>
     <module>unittesting</module>
   </modules>
 </project>
