@@ -15,7 +15,7 @@
 </div>
 
 <pre>
-This repository is created to contain lab exercises for the course "Software Engineering in practise".
+<div align="center">This repository is created to contain lab exercises for the course "Software Engineering in practise".
 </pre>
 <hr/>
 
