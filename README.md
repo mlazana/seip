@@ -1,7 +1,13 @@
 <div align="center">
 <img src="media/aueb.jpg" height="80px">
-<h1> Software Engineering in practise<br/><sub>Java lab assignments 2019</sub></h1>
-<img scr="http://wiki.stat.ucla.edu/distributome/uploads/a/a2/JAVA_animated.gif"  height="100px">
+<h1> Software Engineering in practise<br/><sub>Java lab assignments 2019</sub>
+<br>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build Status](https://travis-ci.com/mlazana/dmst-Java-course-assignments.svg?token=PseqrqHdcY3eC1s685JB&branch=master)](https://travis-ci.com/mlazana/dmst-Java-course-assignments)
+[![codecov](https://codecov.io/gh/mlazana/dmst-Java-course-assignments/branch/master/graph/badge.svg?token=qZjiJn3nPL)](https://codecov.io/gh/mlazana/dmst-Java-course-assignments)
+
+</h1>
 ▶️ <a href="https://github.com/mlazana/dmst-Java-course-assignments/blob/master/LICENSE.md">License</a> | 
 <a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/gradeshistogram">1st assignment</a> | 
 <a href="https://github.com/mlazana/dmst-Java-course-assignments/tree/development/javaCodeAnalyzer">2nd assignment</a> |
@@ -32,6 +38,7 @@ For furthure informations click [here](https://github.com/mlazana/dmst-Java-cour
 
 The purpose of this assignment is to get familiar with <b> Java unit testing </b>. So, I wrote tests for the methods of several classes.
 
+For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/tree/master/unittesting)
 ## Authors
 
 * Marietta Lazana
