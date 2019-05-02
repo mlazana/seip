@@ -7,12 +7,18 @@ import filehandlers.FileIO;
 import static org.mockito.Mockito.*;
 
 /**
- * This class contains tests for the methods of ArrayOperaions class 
+ * This class contains tests for the methods of ArrayOperaions class
+ * 
  * @author Marietta Lazana
  */
 public class ArrayOperationsTest {
 
 	String src = "src/test/resources/validFileInput.txt";
+	
+	// Mock the FileIO dependency
+	FileIO fileio = mock(FileIO.class);
+	// Mock the IntegerOperations dependency
+	IntegerOperations io = mock(IntegerOperations.class);
 
 	/**
 	 * Finds max number within a given file by mocking FileIO and InegerOperation
@@ -23,11 +29,6 @@ public class ArrayOperationsTest {
 	 */
 	@Test
 	public void test_findMax() {
-
-		// Mock the FileIO dependency
-		FileIO fileio = mock(FileIO.class);
-		// Mock the IntegerOperations dependency
-		IntegerOperations io = mock(IntegerOperations.class);
 
 		ArrayOperations ao = new ArrayOperations(fileio, io);
 
@@ -47,11 +48,6 @@ public class ArrayOperationsTest {
 	@Test(expected = IllegalArgumentException.class)
 	public void test_findMaxEmpty() {
 
-		// Mock the FileIO dependency
-		FileIO fileio = mock(FileIO.class);
-		// Mock the IntegerOperations dependency
-		IntegerOperations io = mock(IntegerOperations.class);
-
 		ArrayOperations ao = new ArrayOperations(fileio, io);
 
 		int[] emptyFile = {};
@@ -69,11 +65,6 @@ public class ArrayOperationsTest {
 	@Test
 	public void test_reverseArray_Mocking() {
 
-		// Mock the FileIO dependency
-		FileIO fileio = mock(FileIO.class);
-		// Mock the IntegerOperations dependency
-		IntegerOperations io = mock(IntegerOperations.class);
-
 		ArrayOperations ao = new ArrayOperations(fileio, io);
 
 		int[] fileInput = { 1, 2, 3, 4, 5 };
@@ -90,19 +81,15 @@ public class ArrayOperationsTest {
 	}
 
 	/**
-	 * Empty array as an input 
+	 * Empty array as an input
+	 * 
 	 * @exception IllegalArgumentException when the given array is empty
 	 */
 	@Test(expected = IllegalArgumentException.class)
 	public void test_reverseArrayEmpty() {
 
-		// Mock the FileIO dependency
-		FileIO fileio = mock(FileIO.class);
-		// Mock the IntegerOperations dependency
-		IntegerOperations io = mock(IntegerOperations.class);
-
 		ArrayOperations ao = new ArrayOperations(fileio, io);
-		
+
 		when(fileio.readFile(src)).thenReturn(new int[] {});
 
 		ao.reverseArray(src);
