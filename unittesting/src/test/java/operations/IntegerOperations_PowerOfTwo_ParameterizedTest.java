@@ -29,7 +29,7 @@ public class IntegerOperations_PowerOfTwo_ParameterizedTest {
 	
 	@Parameters
 	public static Collection<Object[]> data(){
-		Object[][] data = new Object[][]{{2,4},{3,8},{4,16}};
+		Object[][] data = new Object[][]{{0,1},{1,2},{2,4},{3,8},{4,16}};
 		
 		return Arrays.asList(data);
 	}
