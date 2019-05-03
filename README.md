@@ -19,7 +19,10 @@
 </pre>
 <hr/>
 
-
+## Requirements
+This project requires:
+- Java JDK [version 1.7](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) (or later) and
+- Maven [3.3](https://maven.apache.org/download.cgi) (or later)
 
 ## First assigment
 
