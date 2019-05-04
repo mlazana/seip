@@ -44,8 +44,8 @@ The purpose of this assignment is to get familiar with <b> Java unit testing </b
 For furthure informations click [here](https://github.com/mlazana/dmst-Java-course-assignments/tree/master/unittesting)
 ## Authors
 
-* Marietta Lazana
-* Antonis Gkortzis
+* Marietta Lazana || Github: [mlazana](https://github.com/mlazana)
+* Antonis Gkortzis || Github: [AntonisGkortzis](https://github.com/AntonisGkortzis)
 
 ## License
 
