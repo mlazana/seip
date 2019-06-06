@@ -29,13 +29,13 @@ This project requires:
 
 The purpose of this assignment is to get familiar with <b>built automation tool Maven and some Java libraries</b>. This progamme reads grades from a given file and presents a histogram with the frequencies.
 
-For furthure informations click [here](https://github.com/mlazana/seip/blob/development/gradeshistogram/README.md)
+For furthure informations click [here](https://github.com/mlazana/seip/tree/development/gradeshistogram)
 
 ## Second assignment
 
 The purpose of this assignment is to get familiar with <b> Java design patterns</b>. More precisely, I created Java source code analyzer.
 
-For furthure informations click [here](https://github.com/mlazana/seip/blob/development/Java_code_analyzer/README.md)
+For furthure informations click [here](https://github.com/mlazana/seip/tree/master/javaCodeAnalyzer)
 
 ## Third assignment
 
